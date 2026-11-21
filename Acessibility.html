@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Acessibility Styling
+        </title>
+        <style>
+            body {
+                font-family : Arial;
+            }
+            /*Button styling*/
+            button {
+                padding :10px 20px;
+                background : green;
+                color:white;
+                border: none;
+            }
+            /*focus outline of keyboard users*/
+            button:focus {
+              outline:10px solid red;
+              outline-offset:4px; 
+            }
+            /*High contrast text box*/ .box{
+                margin-top: 20px;
+                padding:50px;
+                background: green;
+                color: white;
+            }</style></head>
+            <button>Press tab to focus me</button>
+            <div class="box">high contrast is better for readability</div>
+</html>
