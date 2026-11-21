@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Employee Registration
+        </title>
+    </head>
+    <body align = "center">
+        <h1>EMPLOYEE REGISTRATION</h1>
+        <form>
+            Employee Name : <input type="text" name="g1" placeholder="Enter your name" autofocus> <br><br>
+            Password : <input type="password" name="g2" placeholder = "Enter the password" > <br><br> 
+            Email : <input type="email" name="g3" placeholder="abc@gmail.com"  required> <br><br>
+            Mobile : <input type="number" name="g4" placeholder="Enter your mobile no" pattern="[0-9] {10} " required><br><br>
+            Age : <input type="age" name="g5" placeholder="Enter your age"><br><br>
+            Date of birth : <input type="date" name="g6" id="dob" min="1900-01-01" max="2008-01-01" required><br><br>
+            Prefered interview time: <input type="time" name="g7" id="appt-time"  min="09:00" max="18:00" required><br><br>
+            Gender : <input type = "radio" name="g8">Female
+             <input type = "radio" name="g8">Male <br><br>
+            Skills Known : <input type="Checkbox" name="g9">HTML
+             <input type="Checkbox" name="g9">CSS
+              <input type="Checkbox" name="g9">Java Script
+               <input type="Checkbox" name="g9">PHP<br><br>
+            Course : <select name="g10" required>
+                <option value="1">Select</option>
+                <OPTION>Software</OPTION>
+                <OPTION>IT cell</OPTION>
+                <OPTION>Data Analysis</OPTION> </select><br><br>
+            Upload Resume : <input type="file" name="g11" accept=".pdf"> <br><br>
+            Address : <textarea name="g12" required rows="5" cols="40" placeholder="Enter your address"  ></textarea><br><br>
+            Work Experience : <input type="range" name="g13" min="0" max="20" ><br><br>
+            LinkedIn : <input type="text" name="g13" placeholder="Enter the LinkedIn URL" autofocus> <br><br> 
+            <button type="submit"> Register</button>
+            <button type="reset"> Clear all</button>
+
+
+        </form>
+    </body>
+</html>
